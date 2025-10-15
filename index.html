@@ -6,6 +6,7 @@
   <meta name="autor" content="Mateo Gutierrez">
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   <title>Hi! I'm Mateo</title>
 </head>
@@ -13,7 +14,7 @@
   <div class="background-page">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 sidebar vh-100">
+        <div class="col-md-3 sidebar vh-100 overflow-auto">
           <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
             <img class="img-fluid rounded-circle mt-5 shadow" width="150" height="150" src="/src/mateo_cuadrado.jpg" alt="Mateo bien fachero" title="Mateo facherisimo">
             <h2 class="mt-4 name fw-bold">Mateo Gutierrez</h2>
@@ -21,10 +22,55 @@
               <span class="text-primary">SOFTWARE DEVELOPER</span>
               <span>IN COLOMBIA</span>
             </p>
+            <nav class="navegacion">
+              <div class="container-fluid">
+                <div class="row d-block m-3 text-uppercase text-center navegacion-item">
+                  <div class="col">
+                    <a href="#">Home</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">about</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">services</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">skills</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">education</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">experience</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">work</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">blog</a>
+                  </div>
+                  <div class="col">
+                    <a href="#">contact</a>
+                  </div>
+            </nav>
+            <footer class="mt-5 mb-5">
+              <p class="text-center text-muted mb-0">&copy; Copyright 2025 All rights reserved</p>
+              <p class="text-center text-muted mb-0">Made with Bootstrap by 2025</p>
+            </footer>
           </div>
         </div>
-        <div class="col-md-9 content">
-          
+        <div class="col-md-9 content d-flex align-items-center vh-100 p-5">
+          <div>
+            <h1 class="fw-bold h1-text">Hola!<br>Soy Mateo</h1>
+            <p>100% HTML5</p>
+            <a href="https://github.com/M1000GG" target="_blank" rel="noopener noreferrer">
+            <button class="btn btn-outline-primary text-uppercase">
+              <span class="mb-0">
+                Download CV <i class="bi bi-download"></i>
+              </span>
+            </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

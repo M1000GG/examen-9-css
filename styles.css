@@ -6,6 +6,24 @@ background-color: whitesmoke;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.nav-link:hover {
-  border-bottom: 2px solid #0d6efd;
+
+.navegacion-item a{
+  text-decoration: none;
+  color: gray;
+}
+
+.navegacion-item a:hover {
+  color: #0d6efd;
+  border-bottom: 1px solid #0d6efd;
+}
+
+.content {
+  background-image: url("src/fondo-back.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 64px;
 }
